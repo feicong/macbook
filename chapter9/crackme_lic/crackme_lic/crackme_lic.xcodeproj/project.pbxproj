@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1536379D1CED61F5003EEFA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536379C1CED61F4003EEFA3 /* AppDelegate.swift */; };
+		1536379F1CED61F5003EEFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1536379E1CED61F5003EEFA3 /* Assets.xcassets */; };
+		153637A21CED61F5003EEFA3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153637A01CED61F5003EEFA3 /* MainMenu.xib */; };
+		1546D4E71CF48FE5005A4EB4 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1546D4E61CF48FE5005A4EB4 /* AppKit.framework */; };
+		15D094F31CF420C800383809 /* CommonCrypto in Resources */ = {isa = PBXBuildFile; fileRef = 15D094F21CF420C800383809 /* CommonCrypto */; };
+		15D778A11CF41AF100197A0D /* JSONLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D7789F1CF41AD800197A0D /* JSONLib.framework */; };
+		15D778A21CF41AF100197A0D /* JSONLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15D7789F1CF41AD800197A0D /* JSONLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		15D778A41CF41E7E00197A0D /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D778A31CF41E7E00197A0D /* AES.swift */; };
+		15D778A61CF41E8400197A0D /* SecrecyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D778A51CF41E8400197A0D /* SecrecyExtension.swift */; };
+		15D778A81CF41EA700197A0D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D778A71CF41EA700197A0D /* Security.framework */; };
+		15D778AA1CF41EAD00197A0D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D778A91CF41EAD00197A0D /* SystemConfiguration.framework */; };
+		1AB49FD01EAC7F77008AB1CD /* Arcane.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB49FCF1EAC7F77008AB1CD /* Arcane.framework */; };
+		1AB49FD11EAC9E0D008AB1CD /* Arcane.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB49FCF1EAC7F77008AB1CD /* Arcane.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		153637B11CED8143003EEFA3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1AB49FD11EAC9E0D008AB1CD /* Arcane.framework in Embed Frameworks */,
+				15D778A21CF41AF100197A0D /* JSONLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		153637991CED61F4003EEFA3 /* crackme_lic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crackme_lic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1536379C1CED61F4003EEFA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1536379E1CED61F5003EEFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		153637A11CED61F5003EEFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		153637A31CED61F5003EEFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1546D4E61CF48FE5005A4EB4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		15D094F21CF420C800383809 /* CommonCrypto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CommonCrypto; sourceTree = "<group>"; };
+		15D7789F1CF41AD800197A0D /* JSONLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSONLib.framework; sourceTree = "<group>"; };
+		15D778A31CF41E7E00197A0D /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
+		15D778A51CF41E8400197A0D /* SecrecyExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecrecyExtension.swift; sourceTree = "<group>"; };
+		15D778A71CF41EA700197A0D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		15D778A91CF41EAD00197A0D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1AB49FCF1EAC7F77008AB1CD /* Arcane.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Arcane.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		153637961CED61F4003EEFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1546D4E71CF48FE5005A4EB4 /* AppKit.framework in Frameworks */,
+				15D778AA1CF41EAD00197A0D /* SystemConfiguration.framework in Frameworks */,
+				15D778A81CF41EA700197A0D /* Security.framework in Frameworks */,
+				15D778A11CF41AF100197A0D /* JSONLib.framework in Frameworks */,
+				1AB49FD01EAC7F77008AB1CD /* Arcane.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153637901CED61F4003EEFA3 = {
+			isa = PBXGroup;
+			children = (
+				15D094F21CF420C800383809 /* CommonCrypto */,
+				1536379B1CED61F4003EEFA3 /* crackme_lic */,
+				1536379A1CED61F4003EEFA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1536379A1CED61F4003EEFA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				153637991CED61F4003EEFA3 /* crackme_lic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1536379B1CED61F4003EEFA3 /* crackme_lic */ = {
+			isa = PBXGroup;
+			children = (
+				1AB49FCF1EAC7F77008AB1CD /* Arcane.framework */,
+				15D778A51CF41E8400197A0D /* SecrecyExtension.swift */,
+				15D778A31CF41E7E00197A0D /* AES.swift */,
+				1536379C1CED61F4003EEFA3 /* AppDelegate.swift */,
+				1536379E1CED61F5003EEFA3 /* Assets.xcassets */,
+				153637A01CED61F5003EEFA3 /* MainMenu.xib */,
+				153637A31CED61F5003EEFA3 /* Info.plist */,
+				1546D4E61CF48FE5005A4EB4 /* AppKit.framework */,
+				15D778A91CF41EAD00197A0D /* SystemConfiguration.framework */,
+				15D778A71CF41EA700197A0D /* Security.framework */,
+				15D7789F1CF41AD800197A0D /* JSONLib.framework */,
+			);
+			path = crackme_lic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		153637981CED61F4003EEFA3 /* crackme_lic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153637A61CED61F5003EEFA3 /* Build configuration list for PBXNativeTarget "crackme_lic" */;
+			buildPhases = (
+				153637951CED61F4003EEFA3 /* Sources */,
+				153637961CED61F4003EEFA3 /* Frameworks */,
+				153637971CED61F4003EEFA3 /* Resources */,
+				153637B11CED8143003EEFA3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crackme_lic;
+			productName = crackme_lic;
+			productReference = 153637991CED61F4003EEFA3 /* crackme_lic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		153637911CED61F4003EEFA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = macbook;
+				TargetAttributes = {
+					153637981CED61F4003EEFA3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 153637941CED61F4003EEFA3 /* Build configuration list for PBXProject "crackme_lic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 153637901CED61F4003EEFA3;
+			productRefGroup = 1536379A1CED61F4003EEFA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				153637981CED61F4003EEFA3 /* crackme_lic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		153637971CED61F4003EEFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D094F31CF420C800383809 /* CommonCrypto in Resources */,
+				1536379F1CED61F5003EEFA3 /* Assets.xcassets in Resources */,
+				153637A21CED61F5003EEFA3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		153637951CED61F4003EEFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1536379D1CED61F5003EEFA3 /* AppDelegate.swift in Sources */,
+				15D778A41CF41E7E00197A0D /* AES.swift in Sources */,
+				15D778A61CF41E8400197A0D /* SecrecyExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		153637A01CED61F5003EEFA3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				153637A11CED61F5003EEFA3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		153637A41CED61F5003EEFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		153637A51CED61F5003EEFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		153637A71CED61F5003EEFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/crackme_lic",
+				);
+				INFOPLIST_FILE = crackme_lic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/lib/system;
+				PRODUCT_BUNDLE_IDENTIFIER = fc.crackmelic;
+				PRODUCT_NAME = crackme_lic;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCrypto";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		153637A81CED61F5003EEFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/crackme_lic",
+				);
+				INFOPLIST_FILE = crackme_lic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/lib/system;
+				PRODUCT_BUNDLE_IDENTIFIER = fc.crackmelic;
+				PRODUCT_NAME = crackme_lic;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCrypto";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		153637941CED61F4003EEFA3 /* Build configuration list for PBXProject "crackme_lic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153637A41CED61F5003EEFA3 /* Debug */,
+				153637A51CED61F5003EEFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153637A61CED61F5003EEFA3 /* Build configuration list for PBXNativeTarget "crackme_lic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153637A71CED61F5003EEFA3 /* Debug */,
+				153637A81CED61F5003EEFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 153637911CED61F4003EEFA3 /* Project object */;
+}

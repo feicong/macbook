@@ -1,0 +1,3 @@
+framework module myframeworkswift {
+    header "myframeworkswift-Swift.h"
+}

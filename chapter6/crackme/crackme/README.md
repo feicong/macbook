@@ -1,0 +1,1 @@
+CommonCrypto.swift下载地址：https://github.com/onmyway133/CommonCrypto.swift

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:myframework/myframework.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:myframeworkswift/myframeworkswift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:myframeworktest/myframeworktest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:myframeworkswifttest/myframeworkswifttest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:mylib/mylib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:mystaticlib/mystaticlib.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo "Running myframeworktest.app postinstall script."
+echo "Installing myframework.framework."
+
+rm -rf ~/Library/Frameworks/myframework.framework
+mkdir ~/Library/Frameworks/myframework.framework
+cp -r /Applications/myframeworktest.app/Contents/Frameworks/myframework.framework/* ~/Library/Frameworks/myframework.framework
+
+chmod -R 6777 ~/Library/Frameworks/myframework.framework
+echo "Ran myframeworktest.app postinstall script."
+
+exit 0

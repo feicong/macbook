@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo "Running myframeworktest.app preinstall script."
+echo "Killing myframeworktest.app."
+killall "myframeworktest"
+
+echo "Finding old versions of myframeworktest."
+mdfind -onlyin /Applications "kMDItemCFBundleIdentifier=='fc.myframeworktest'" | xargs -I % rm -rf %
+
+echo "Removed old versions of myframeworktest.app, if any."
+echo "Ran myframeworktest.app preinstall script."
+
+exit 0

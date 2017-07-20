@@ -1,0 +1,6 @@
+#!/usr/sbin/dtrace -s
+
+proc::posix_spawn:exec-success
+{
+    printf( "execname: %s", execname);
+}

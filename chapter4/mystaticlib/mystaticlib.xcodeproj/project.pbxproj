@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15470CE91CD1BB5C00E42039 /* mystaticlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 15470CE81CD1BB5C00E42039 /* mystaticlib.h */; };
+		15470CEB1CD1BB5C00E42039 /* mystaticlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 15470CEA1CD1BB5C00E42039 /* mystaticlib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15470CE51CD1BB5C00E42039 /* libmystaticlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmystaticlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		15470CE81CD1BB5C00E42039 /* mystaticlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mystaticlib.h; sourceTree = "<group>"; };
+		15470CEA1CD1BB5C00E42039 /* mystaticlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mystaticlib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15470CE21CD1BB5C00E42039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15470CDC1CD1BB5C00E42039 = {
+			isa = PBXGroup;
+			children = (
+				15470CE71CD1BB5C00E42039 /* mystaticlib */,
+				15470CE61CD1BB5C00E42039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15470CE61CD1BB5C00E42039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15470CE51CD1BB5C00E42039 /* libmystaticlib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15470CE71CD1BB5C00E42039 /* mystaticlib */ = {
+			isa = PBXGroup;
+			children = (
+				15470CE81CD1BB5C00E42039 /* mystaticlib.h */,
+				15470CEA1CD1BB5C00E42039 /* mystaticlib.m */,
+			);
+			path = mystaticlib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15470CE31CD1BB5C00E42039 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15470CE91CD1BB5C00E42039 /* mystaticlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15470CE41CD1BB5C00E42039 /* mystaticlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15470CEE1CD1BB5C00E42039 /* Build configuration list for PBXNativeTarget "mystaticlib" */;
+			buildPhases = (
+				15470CE11CD1BB5C00E42039 /* Sources */,
+				15470CE21CD1BB5C00E42039 /* Frameworks */,
+				15470CE31CD1BB5C00E42039 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mystaticlib;
+			productName = mystaticlib;
+			productReference = 15470CE51CD1BB5C00E42039 /* libmystaticlib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15470CDD1CD1BB5C00E42039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = android;
+				TargetAttributes = {
+					15470CE41CD1BB5C00E42039 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 15470CE01CD1BB5C00E42039 /* Build configuration list for PBXProject "mystaticlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15470CDC1CD1BB5C00E42039;
+			productRefGroup = 15470CE61CD1BB5C00E42039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15470CE41CD1BB5C00E42039 /* mystaticlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15470CE11CD1BB5C00E42039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15470CEB1CD1BB5C00E42039 /* mystaticlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15470CEC1CD1BB5C00E42039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		15470CED1CD1BB5C00E42039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15470CEF1CD1BB5C00E42039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15470CF01CD1BB5C00E42039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15470CE01CD1BB5C00E42039 /* Build configuration list for PBXProject "mystaticlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15470CEC1CD1BB5C00E42039 /* Debug */,
+				15470CED1CD1BB5C00E42039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15470CEE1CD1BB5C00E42039 /* Build configuration list for PBXNativeTarget "mystaticlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15470CEF1CD1BB5C00E42039 /* Debug */,
+				15470CF01CD1BB5C00E42039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15470CDD1CD1BB5C00E42039 /* Project object */;
+}

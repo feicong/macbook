@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:crackme_lic/crackme_lic/crackme_lic.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:crackme_net/crackme_net/crackme_net.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:whoisshe/whoisshe/whoisshe.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:whoisshe/whoisshe_encrypt/whoisshe_encrypt.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:dyldhook/dyldhook.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:symboltablehook/symboltablehook.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:myframeworkswizzing/myframeworkswizzing.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:myframeworkswiftswizzing/myframeworkswiftswizzing.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:insertlib/insertlib.xcodeproj">
+   </FileRef>
+</Workspace>

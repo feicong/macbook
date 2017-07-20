@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:checksign/checksign.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:checksandbox/checksandbox.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:codeinmem/codeinmem/codeinmem.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:datasave_swift/datasave_swift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:datasave/datasave.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:amibeingdebugged/amibeingdebugged.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:antidebugger/antidebugger.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:amibeinghooked/amibeinghooked.xcodeproj">
+   </FileRef>
+</Workspace>

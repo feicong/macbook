@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if [ -d ~/Library/Frameworks/myframework.framework ]; then
+   /bin/rm -rf ~/Library/Frameworks/myframework.framework
+fi
+
+if [ -d /Application/myframework.app ]; then
+   /bin/rm -rf /Applications/myframeworktest.app
+fi
+
+echo done.
