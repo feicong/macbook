@@ -18,7 +18,7 @@
 
 当当网：[http://product.dangdang.com/25119898.html](http://product.dangdang.com/25119898.html)
 
-亚马逊：[https://www.amazon.cn/macOS%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%85%A8%E4%B8%8E%E9%80%86%E5%90%91%E5%88%86%E6%9E%90-%E4%B8%B0%E7%94%9F%E5%BC%BA-%E9%82%A2%E4%BF%8A%E6%9D%B0/dp/B074323CHX/](https://www.amazon.cn/macOS%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%85%A8%E4%B8%8E%E9%80%86%E5%90%91%E5%88%86%E6%9E%90-%E4%B8%B0%E7%94%9F%E5%BC%BA-%E9%82%A2%E4%BF%8A%E6%9D%B0/dp/B074323CHX/)
+亚马逊：[https://www.amazon.cn/dp/B074323CHX](https://www.amazon.cn/dp/B074323CHX)
 
 
 ## Swift版本
