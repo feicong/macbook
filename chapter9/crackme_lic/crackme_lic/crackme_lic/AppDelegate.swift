@@ -86,7 +86,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let licname = NSHomeDirectory() + "/Documents/.crackme.lic"
         unlink(licname)
         
-        self.window.title = "crackme unregisterd"
+        self.window.title = "crackme unregistered"
         
         
         self.edtUserName.stringValue = ""
@@ -136,7 +136,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         var reg_info : RegInfo = RegInfo()
         if checkLicense(str, reginfo: &reg_info) {
-            self.window.title = "crackme registerd by " + reg_info.username
+            self.window.title = "crackme registered by " + reg_info.username
         
             self.edtUserName.stringValue = reg_info.username
             self.edtSN.stringValue = reg_info.sn
@@ -155,7 +155,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             msg.addButton(withTitle: "ok")
             msg.runModal()
         } else {
-            self.window.title = "crackme unregisterd"
+            self.window.title = "crackme unregistered"
             
             
             self.edtUserName.stringValue = ""
@@ -292,7 +292,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             let str = try String(contentsOfFile: licname, encoding: String.Encoding.utf8)
             var reg_info : RegInfo = RegInfo()
             if checkLicense(str, reginfo: &reg_info) {
-                self.window.title = "crackme registerd by " + reg_info.username
+                self.window.title = "crackme registered by " + reg_info.username
                 
                 self.edtUserName.stringValue = reg_info.username
                 self.edtSN.stringValue = reg_info.sn

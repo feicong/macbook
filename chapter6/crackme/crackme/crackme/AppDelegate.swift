@@ -77,7 +77,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         defaults.removeObject(forKey: "username")
         defaults.removeObject(forKey: "sn")
         
-        self.window.title = "crackme unregisterd"
+        self.window.title = "crackme unregistered"
         self.edtUserName.stringValue = ""
         self.edtSN.stringValue = ""
         
@@ -122,7 +122,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         defaults.set(sn.uppercased(), forKey: "sn")
         
         if true == checkSN(username, sn: sn) {
-            self.window.title = "crackme registerd by " + username
+            self.window.title = "crackme registered by " + username
             
             self.edtUserName.isEnabled = false
             self.edtSN.isEnabled = false
@@ -134,7 +134,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             err.runModal()
             
         } else {
-            self.window.title = "crackme unregisterd"
+            self.window.title = "crackme unregistered"
             self.edtUserName.isEnabled = true
             self.edtSN.isEnabled = true
             self.btnReg.isEnabled = true
@@ -194,13 +194,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             self.edtSN.stringValue = sn
             
             if true == checkSN(username, sn: sn) {
-                self.window.title = "crackme registerd by " + (username as String)
+                self.window.title = "crackme registered by " + (username as String)
                 self.edtUserName.stringValue = (username as String)
                 self.edtSN.stringValue = (sn as String)
                 
             }
         } else {
-            self.window.title = "crackme unregisterd"
+            self.window.title = "crackme unregistered"
             //self.edtUserName.stringValue = ""
             //self.edtSN.stringValue = ""
             
