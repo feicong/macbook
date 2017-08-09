@@ -21,6 +21,7 @@
  */
 
 import Cocoa
+import CCommonCrypto
 import Arcane
 
 //extension String {

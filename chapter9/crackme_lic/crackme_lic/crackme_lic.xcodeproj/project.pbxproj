@@ -11,7 +11,6 @@
 		1536379F1CED61F5003EEFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1536379E1CED61F5003EEFA3 /* Assets.xcassets */; };
 		153637A21CED61F5003EEFA3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153637A01CED61F5003EEFA3 /* MainMenu.xib */; };
 		1546D4E71CF48FE5005A4EB4 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1546D4E61CF48FE5005A4EB4 /* AppKit.framework */; };
-		15D094F31CF420C800383809 /* CommonCrypto in Resources */ = {isa = PBXBuildFile; fileRef = 15D094F21CF420C800383809 /* CommonCrypto */; };
 		15D778A11CF41AF100197A0D /* JSONLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D7789F1CF41AD800197A0D /* JSONLib.framework */; };
 		15D778A21CF41AF100197A0D /* JSONLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15D7789F1CF41AD800197A0D /* JSONLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		15D778A41CF41E7E00197A0D /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D778A31CF41E7E00197A0D /* AES.swift */; };
@@ -44,7 +43,6 @@
 		153637A11CED61F5003EEFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		153637A31CED61F5003EEFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1546D4E61CF48FE5005A4EB4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		15D094F21CF420C800383809 /* CommonCrypto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CommonCrypto; sourceTree = "<group>"; };
 		15D7789F1CF41AD800197A0D /* JSONLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSONLib.framework; sourceTree = "<group>"; };
 		15D778A31CF41E7E00197A0D /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
 		15D778A51CF41E8400197A0D /* SecrecyExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecrecyExtension.swift; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 		153637901CED61F4003EEFA3 = {
 			isa = PBXGroup;
 			children = (
-				15D094F21CF420C800383809 /* CommonCrypto */,
 				1536379B1CED61F4003EEFA3 /* crackme_lic */,
 				1536379A1CED61F4003EEFA3 /* Products */,
 			);
@@ -132,7 +129,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = macbook;
 				TargetAttributes = {
 					153637981CED61F4003EEFA3 = {
@@ -164,7 +161,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15D094F31CF420C800383809 /* CommonCrypto in Resources */,
 				1536379F1CED61F5003EEFA3 /* Assets.xcassets in Resources */,
 				153637A21CED61F5003EEFA3 /* MainMenu.xib in Resources */,
 			);
@@ -211,8 +207,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -256,8 +254,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -276,6 +276,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -294,7 +295,7 @@
 				LIBRARY_SEARCH_PATHS = /usr/lib/system;
 				PRODUCT_BUNDLE_IDENTIFIER = fc.crackmelic;
 				PRODUCT_NAME = crackme_lic;
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCrypto";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/crackme_lic/CommonCrypto";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -314,7 +315,7 @@
 				LIBRARY_SEARCH_PATHS = /usr/lib/system;
 				PRODUCT_BUNDLE_IDENTIFIER = fc.crackmelic;
 				PRODUCT_NAME = crackme_lic;
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCrypto";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/crackme_lic/CommonCrypto";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

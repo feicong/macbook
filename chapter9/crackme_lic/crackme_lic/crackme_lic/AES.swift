@@ -9,7 +9,7 @@
 //  只支持 ECB/CBC 模式， cbc 模式必须要 IV,只支持 PKCS7Padding
 //  raw 的长度必须大于3个字符
 import Foundation
-import CommonCrypto
+import CCommonCrypto
 
 
 extension Data {

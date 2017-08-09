@@ -11,8 +11,8 @@
 		1525F4F51CD9B48B00FB29E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525F4F41CD9B48B00FB29E6 /* main.m */; };
 		1525F4F71CD9B48B00FB29E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1525F4F61CD9B48B00FB29E6 /* Assets.xcassets */; };
 		1525F4FA1CD9B48B00FB29E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1525F4F81CD9B48B00FB29E6 /* MainMenu.xib */; };
-		1A3EC4901EAB981700DABECD /* myframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3EC48F1EAB981700DABECD /* myframework.framework */; };
-		1A3EC4931EAB9A2500DABECD /* myframework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3EC48F1EAB981700DABECD /* myframework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18781E451F3AB2620095A443 /* myframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18781E431F3AB2620095A443 /* myframework.framework */; };
+		18781E461F3AB2620095A443 /* myframeworkswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18781E441F3AB2620095A443 /* myframeworkswift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,7 +22,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1A3EC4931EAB9A2500DABECD /* myframework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,9 +37,8 @@
 		1525F4F91CD9B48B00FB29E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1525F4FB1CD9B48B00FB29E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1525F5011CD9B4E400FB29E6 /* myframework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = myframework.framework; path = ../myframework.framework; sourceTree = "<group>"; };
-		1A3EC48B1EAB964400DABECD /* myframeworkswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = myframeworkswift.framework; path = ../myframeworkswift/build/Debug/myframeworkswift.framework; sourceTree = "<group>"; };
-		1A3EC48D1EAB97E200DABECD /* myframeworkswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = myframeworkswift.framework; path = ../myframeworkswift/build/Debug/myframeworkswift.framework; sourceTree = "<group>"; };
-		1A3EC48F1EAB981700DABECD /* myframework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = myframework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/chapter4-amdwdqyprdhrmgdebopdxdqnvjid/Build/Products/Debug/myframework.framework"; sourceTree = "<group>"; };
+		18781E431F3AB2620095A443 /* myframework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myframework.framework; sourceTree = "<group>"; };
+		18781E441F3AB2620095A443 /* myframeworkswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myframeworkswift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3EC4901EAB981700DABECD /* myframework.framework in Frameworks */,
+				18781E461F3AB2620095A443 /* myframeworkswift.framework in Frameworks */,
+				18781E451F3AB2620095A443 /* myframework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +96,8 @@
 		1A3EC48A1EAB964300DABECD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1A3EC48F1EAB981700DABECD /* myframework.framework */,
-				1A3EC48D1EAB97E200DABECD /* myframeworkswift.framework */,
-				1A3EC48B1EAB964400DABECD /* myframeworkswift.framework */,
+				18781E431F3AB2620095A443 /* myframework.framework */,
+				18781E441F3AB2620095A443 /* myframeworkswift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,7 +129,7 @@
 		1525F4E51CD9B48B00FB29E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = android;
 				TargetAttributes = {
 					1525F4EC1CD9B48B00FB29E6 = {
@@ -207,8 +205,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -251,8 +251,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";

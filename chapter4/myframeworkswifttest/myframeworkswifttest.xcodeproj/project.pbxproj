@@ -10,8 +10,7 @@
 		15F9C8CD1D01871C00DE1A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F9C8CC1D01871C00DE1A19 /* AppDelegate.swift */; };
 		15F9C8CF1D01871C00DE1A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F9C8CE1D01871C00DE1A19 /* Assets.xcassets */; };
 		15F9C8D21D01871C00DE1A19 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F9C8D01D01871C00DE1A19 /* MainMenu.xib */; };
-		1A3EC4951EAB9A8700DABECD /* myframeworkswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3EC4941EAB9A8700DABECD /* myframeworkswift.framework */; };
-		1A3EC4961EAB9AC900DABECD /* myframeworkswift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3EC4941EAB9A8700DABECD /* myframeworkswift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18781E481F3AB2AD0095A443 /* myframeworkswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18781E471F3AB2AD0095A443 /* myframeworkswift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -21,7 +20,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1A3EC4961EAB9AC900DABECD /* myframeworkswift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,7 +33,7 @@
 		15F9C8D11D01871C00DE1A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		15F9C8D31D01871C00DE1A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15F9C90F1D01991A00DE1A19 /* myframeworkswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myframeworkswift.framework; sourceTree = "<group>"; };
-		1A3EC4941EAB9A8700DABECD /* myframeworkswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = myframeworkswift.framework; path = ../myframeworkswift/build/Debug/myframeworkswift.framework; sourceTree = "<group>"; };
+		18781E471F3AB2AD0095A443 /* myframeworkswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myframeworkswift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3EC4951EAB9A8700DABECD /* myframeworkswift.framework in Frameworks */,
+				18781E481F3AB2AD0095A443 /* myframeworkswift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +80,7 @@
 		1A3EC4871EAB95D200DABECD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1A3EC4941EAB9A8700DABECD /* myframeworkswift.framework */,
+				18781E471F3AB2AD0095A443 /* myframeworkswift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -267,6 +265,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/myframeworkswifttest",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = myframeworkswifttest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -284,6 +283,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/myframeworkswifttest",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = myframeworkswifttest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
